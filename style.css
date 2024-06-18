@@ -1,0 +1,56 @@
+body {
+    background-color: gray !important;
+}
+
+.cal {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background: #c2c2d6;
+    cursor: default;
+  }
+
+.container {
+    border: 2px solid #47476b;
+    background: black;
+    width: 350px !important;
+    position: relative;
+}
+button {
+    position: relative;
+    height: 65px;
+    width: 80px;
+    color: white;
+    outline: 1px solid black;
+    border: none;
+    background: #4d4d4d;
+    font-size: 20px;
+    cursor: default;
+    font-family: monospace !important;
+}
+.number0 {
+    width: 51%;
+}
+.equals {
+    background: rgb(0, 68, 102); 
+    position: absolute; 
+    height: 130px; 
+    bottom: 5px;
+}
+#clear {
+    background: rgb(172, 57, 57);
+    width: 165px;
+}
+#upperdisplay {
+    font-family: sans-serif !important;
+    font-size: 15px;
+    color: orange !important;
+}
+#display {
+    font-family: sans-serif !important;
+    font-size: 20px;
+}
